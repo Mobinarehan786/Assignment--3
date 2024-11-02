@@ -2,9 +2,8 @@
 import Image from "next/image";
 import Link from "next/link"
 import images from "../images/logo.png"
-import image from "../images/bc.jpeg"
 import Images from "../images/profile.jpg"
-import Footer from "./footer";
+
 
 export default function Header() {
  
@@ -25,9 +24,9 @@ export default function Header() {
 <li className="hover:text-[#0088a9]">Portfolio</li>
 </Link>
     <Link href="/about-me">
-        <li className="hover:text-[#0088a10">About me</li></Link>
+        <li className="hover:text-[#0088a10]">About me</li></Link>
         <Link href="/contact-us">
-    <li className="hover:text-[#0088a9]">Contact me</li></Link>
+    <li className="hover:text-[#0088a9]">Contactme</li></Link>
     <button className="py-2 px-2 bg-[#0099CC] text-xl border-none text-white rounded-lg hover:bg-[#0088a9justify-content[end]">Search</button>
     </ul>
     
